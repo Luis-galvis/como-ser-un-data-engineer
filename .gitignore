@@ -1,6 +1,40 @@
 # =============================================================================
-# .gitignore - Cómo ser un Data Engineer
+# .gitignore - Cómo ser un Data Engineer (Repositorio de Laboratorio y Taller)
 # =============================================================================
+
+# Material Editorial y Libro Comercial (Propiedad Intelectual Privada)
+libro/
+build/
+public/
+assets/
+portada.html
+*.pdf
+*.docx
+*.epub
+
+# Scripts internos de compilación y servidor local de edición
+auditScript.js
+bookCompiler.js
+buildAcademicBook.js
+buildChapterUtils.js
+buildVaultAudit.js
+cleanChaptersAcademic.js
+clean_markdown_orphans.py
+compileBookPreview.js
+deep_clean_academic.py
+elevateAcademicChapters.js
+enrichNotes.js
+export_docx.py
+export_epub.py
+generate_remaining_chapters.py
+scanCodeAll.js
+server.js
+start.bat
+test_cover.*
+updatePortada.js
+scripts/create_master_course.js
+image-removebg-preview*.png
+condor_profesional.jpg
 
 # Credenciales y variables de entorno secretas (NUNCA SUBIR)
 .env
@@ -9,6 +43,8 @@
 
 # Dependencias Node.js
 node_modules/
+package.json
+package-lock.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -20,21 +56,10 @@ __pycache__/
 *.so
 .Python
 env/
-build/dist/
-develop-eggs/
 dist/
-downloads/
-eggs/
+build/
 .eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
 .venv/
 venv/
 ENV/
@@ -57,6 +82,4 @@ Thumbs.db
 desktop.ini
 *.tmp
 *.bak
-/*.pdf
-test_cover.*
 **/_backup_*
