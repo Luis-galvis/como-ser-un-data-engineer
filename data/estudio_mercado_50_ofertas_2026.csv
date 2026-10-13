@@ -1,0 +1,51 @@
+id,empresa,rol,pais_modalidad,plataforma_fuente,fecha_relevamiento,seniority,sql_requerido,python_requerido,nube_principal,spark_requerido,airflow_requerido,dbt_requerido,databricks_snowflake,kafka_streaming,docker_linux,ingles_conversacional,rango_salarial_usd_mes
+1,Bancolombia,Junior Data Engineer,Colombia (Híbrido Medellín),LinkedIn Jobs,2026-01-15,Junior,TRUE,TRUE,AWS,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,1400-1800
+2,Mercado Libre,Data Engineer I,Colombia (Remoto),Get on Board,2026-01-20,Junior,TRUE,TRUE,GCP,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,1800-2400
+3,Rappi,Analytics Engineer,Colombia (Remoto Bogotá),LinkedIn Jobs,2026-01-18,Junior,TRUE,TRUE,Snowflake,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,1500-2000
+4,Globant,Data Engineer Trainee / Junior,Colombia (Remoto),Torre,2026-02-02,Junior,TRUE,TRUE,AWS,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,1200-1600
+5,Nubank,Data Platform Engineer,Colombia (Remoto),LinkedIn Jobs,2026-01-28,Mid,TRUE,TRUE,AWS,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,3200-4500
+6,Bold.co,Data Engineer Junior,Colombia (Bogotá Híbrido),Get on Board,2026-02-05,Junior,TRUE,TRUE,AWS,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,1300-1700
+7,Addi,Analytics Engineer Junior,Colombia (Remoto),LinkedIn Jobs,2026-01-22,Junior,TRUE,TRUE,Snowflake,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,1600-2200
+8,Kavak,Data Engineer Junior,México (Remoto),Get on Board,2026-01-19,Junior,TRUE,TRUE,AWS,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,1400-2000
+9,Despegar,Data Engineer,Argentina (Remoto),LinkedIn Jobs,2026-01-25,Junior,TRUE,TRUE,GCP,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,1200-1600
+10,Falabella Tecnología,Ingeniero de Datos Junior,Chile (Santiago Híbrido),Get on Board,2026-02-03,Junior,TRUE,TRUE,GCP,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,1500-1900
+11,Ualá,Data Engineer Jr/Semisenior,Argentina (Remoto),LinkedIn Jobs,2026-02-01,Junior,TRUE,TRUE,AWS,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,1300-1800
+12,Clip,Junior Data Platform Engineer,México (Remoto),LinkedIn Jobs,2026-01-14,Junior,TRUE,TRUE,AWS,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,1600-2200
+13,Deel,Associate Data Engineer,Remoto Internacional (USD),Arc.dev,2026-01-30,Junior,TRUE,TRUE,AWS,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,2800-3800
+14,Automattic,Data Engineer (Data Platform),Remoto Internacional (USD),LinkedIn Jobs,2026-02-04,Mid,TRUE,TRUE,GCP,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,4500-6500
+15,GitLab,Junior / Associate Analytics Engineer,Remoto Internacional (USD),LinkedIn Jobs,2026-01-12,Junior,TRUE,TRUE,Snowflake,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,3000-4200
+16,BairesDev,Data Engineer Junior,Remoto LATAM (USD),Torre,2026-01-29,Junior,TRUE,TRUE,AWS,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,2000-2600
+17,Turing,Data Engineer (Entry/Mid),Remoto LATAM (USD),Torre,2026-02-08,Junior,TRUE,TRUE,AWS,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,2200-3000
+18,Cemex,Data Engineer Junior,México (Monterrey Híbrido),LinkedIn Jobs,2026-01-17,Junior,TRUE,TRUE,Azure,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,1300-1700
+19,Grupo Éxito,Desarrollador de Datos BI / SQL,Colombia (Medellín),LinkedIn Jobs,2026-02-06,Junior,TRUE,FALSE,Azure,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,1000-1300
+20,Sura,Ingeniero de Datos Analítica,Colombia (Medellín Híbrido),LinkedIn Jobs,2026-01-21,Junior,TRUE,TRUE,AWS,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,1400-1800
+21,Ecopetrol / Cenit,Profesional Datos e Información,Colombia (Bogotá),LinkedIn Jobs,2026-01-10,Junior,TRUE,TRUE,Azure,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,1500-1900
+22,Nu Colombia,Data Engineer Junior,Colombia (Bogotá Remoto),LinkedIn Jobs,2026-02-07,Junior,TRUE,TRUE,AWS,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,2200-3000
+23,Clara,Junior Analytics Engineer,México (Remoto),Get on Board,2026-01-26,Junior,TRUE,TRUE,Snowflake,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,1600-2100
+24,Konfío,Data Engineer Jr,México (CDMX Híbrido),LinkedIn Jobs,2026-01-31,Junior,TRUE,TRUE,AWS,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,1300-1700
+25,Betterfly,Data Engineer,Chile (Remoto),Get on Board,2026-02-02,Mid,TRUE,TRUE,AWS,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,2800-3600
+26,Mercado Libre,Data Engineer II,Colombia (Remoto),LinkedIn Jobs,2026-02-01,Mid,TRUE,TRUE,GCP,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,2800-3800
+27,PedidosYa,Data Engineer Junior,Argentina (Remoto),Get on Board,2026-01-23,Junior,TRUE,TRUE,GCP,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,1200-1700
+28,Belcorp,Ingeniero de Datos Cloud,Colombia (Bogotá),LinkedIn Jobs,2026-01-16,Junior,TRUE,TRUE,Azure,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,1400-1800
+29,Copec Digital,Data Engineer Junior,Chile (Santiago Remoto),Get on Board,2026-02-04,Junior,TRUE,TRUE,AWS,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,1600-2100
+30,Tiendanube,Data Engineer I,Argentina (Remoto),Get on Board,2026-01-19,Junior,TRUE,TRUE,AWS,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,1400-1900
+31,BCP (Banco de Crédito del Perú),Ingeniero de Datos Junior,Perú (Lima Híbrido),LinkedIn Jobs,2026-01-24,Junior,TRUE,TRUE,Azure,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,1300-1700
+32,Interbank,Data Engineer,Perú (Remoto),LinkedIn Jobs,2026-02-03,Junior,TRUE,TRUE,AWS,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,1200-1600
+33,Ontop,Junior Data Platform Engineer,Remoto Internacional (USD),Torre,2026-01-28,Junior,TRUE,TRUE,AWS,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,2500-3200
+34,Canonical,Data Engineer (Ubuntu Data Platform),Remoto Internacional (USD),LinkedIn Jobs,2026-01-11,Junior,TRUE,TRUE,AWS,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,3200-4500
+35,EPAM Systems,Junior Software Engineer in Data,Colombia (Remoto),LinkedIn Jobs,2026-02-05,Junior,TRUE,TRUE,GCP,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,1500-2000
+36,Cognizant,Data Engineer Associate,México (Remoto),LinkedIn Jobs,2026-01-27,Junior,TRUE,TRUE,Azure,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,1600-2200
+37,DLocal,Data Engineer Jr,Uruguay (Remoto),LinkedIn Jobs,2026-02-02,Junior,TRUE,TRUE,AWS,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,1800-2400
+38,Tribal Credit,Analytics Engineer,México (Remoto),Get on Board,2026-01-15,Junior,TRUE,TRUE,Snowflake,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,1700-2300
+39,Platzi,Data Engineer Junior,Colombia (Remoto),Get on Board,2026-01-20,Junior,TRUE,TRUE,AWS,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,1400-1900
+40,Bolsa de Valores de Colombia (bvc),Ingeniero de Datos e Información,Colombia (Bogotá Híbrido),LinkedIn Jobs,2026-01-18,Junior,TRUE,TRUE,Azure,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,1500-1900
+41,Banco Davivienda,Especialista de Datos Junior,Colombia (Bogotá),LinkedIn Jobs,2026-02-06,Junior,TRUE,TRUE,AWS,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,1300-1700
+42,Habi,Data Engineer Jr,Colombia (Bogotá Híbrido),Get on Board,2026-01-22,Junior,TRUE,TRUE,GCP,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,1400-1900
+43,Kueski,Data Engineer I,México (Remoto),LinkedIn Jobs,2026-01-29,Junior,TRUE,TRUE,AWS,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,1800-2400
+44,Bitso,Data Engineer Junior,México (Remoto),Get on Board,2026-02-01,Junior,TRUE,TRUE,AWS,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,2000-2600
+45,Cencosud,Ingeniero de Datos,Chile (Santiago Híbrido),LinkedIn Jobs,2026-01-30,Junior,TRUE,TRUE,Azure,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,1500-1900
+46,Moderna Data / Tech Startup,Data Engineer Trainee,Remoto Internacional (USD),Arc.dev,2026-02-03,Junior,TRUE,TRUE,AWS,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,2500-3200
+47,Alsea,Analista Desarrollador de Datos,México (CDMX),LinkedIn Jobs,2026-01-16,Junior,TRUE,FALSE,Azure,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,1100-1400
+48,Valorem,Ingeniero de Datos,Colombia (Bogotá),LinkedIn Jobs,2026-01-25,Junior,TRUE,TRUE,AWS,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,1300-1700
+49,Geopark,Ingeniero de Datos y Analítica,Colombia (Bogotá Híbrido),LinkedIn Jobs,2026-02-04,Junior,TRUE,TRUE,Azure,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,1600-2100
+50,Remote.com,Associate Data Engineer,Remoto Internacional (USD),LinkedIn Jobs,2026-01-13,Junior,TRUE,TRUE,Snowflake,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,3200-4500

@@ -1,0 +1,62 @@
+# =============================================================================
+# .gitignore - Cómo ser un Data Engineer
+# =============================================================================
+
+# Credenciales y variables de entorno secretas (NUNCA SUBIR)
+.env
+*.env
+!.env.example
+
+# Dependencias Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python y Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/dist/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+
+# Testing y Linters
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Logs del sistema y scratch
+*.log
+scratch/
+.system_generated/
+
+# Archivos temporales de SO
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+/*.pdf
+test_cover.*
+**/_backup_*
