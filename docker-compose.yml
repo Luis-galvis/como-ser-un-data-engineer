@@ -104,6 +104,57 @@ services:
       - ./data:/opt/spark/data
       - ./scripts:/opt/spark/scripts
 
+  # ---------------------------------------------------------------------------
+  # 6. Streaming Bus: Redpanda (Kafka API compatible, Capítulos 21 y 22)
+  # ---------------------------------------------------------------------------
+  redpanda:
+    image: docker.redpanda.com/redpandadata/redpanda:v24.2.4
+    container_name: de_redpanda
+    profiles: ["streaming", "all"]
+    restart: unless-stopped
+    command:
+      - redpanda start
+      - --smp 1
+      - --memory 512M
+      - --reserve-memory 0M
+      - --overprovisioned
+      - --kafka-addr internal://0.0.0.0:9092,external://0.0.0.0:19092
+      - --advertise-kafka-addr internal://redpanda:9092,external://localhost:19092
+    ports:
+      - "19092:19092"
+      - "9092:9092"
+
+  # ---------------------------------------------------------------------------
+  # 7. Orquestación: Apache Airflow 2.10 LTS / 3 (Capítulos 23, 23A y 34)
+  # ---------------------------------------------------------------------------
+  airflow:
+    image: apache/airflow:2.10.2-python3.11
+    container_name: de_airflow
+    profiles: ["orchestration", "all"]
+    restart: unless-stopped
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "False"
+      AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "True"
+    ports:
+      - "8085:8080"
+    volumes:
+      - ./orchestrator/dags:/opt/airflow/dags
+      - ./data:/opt/airflow/data
+    command: standalone
+
+  # ---------------------------------------------------------------------------
+  # 8. Transformación: dbt Core Runner (Capítulos 24 y 34)
+  # ---------------------------------------------------------------------------
+  dbt-runner:
+    image: ghcr.io/dbt-labs/dbt-postgres:1.8.2
+    container_name: de_dbt
+    profiles: ["transform"]
+    volumes:
+      - ./dbt_project:/usr/app/dbt
+      - ./dbt_project/profiles.yml:/root/.dbt/profiles.yml
+    working_dir: /usr/app/dbt
+
 volumes:
   postgres_data:
     name: de_postgres_data
